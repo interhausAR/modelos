@@ -185,15 +185,15 @@ function init() {
     //////OBJETO RHINO 1///////////////
     new THREE.MTLLoader()
         .setPath('data/models/')
-        .load('omega.mtl', function (materials) {
+        .load('omega01.mtl', function (materials) {
             materials.preload();
             new THREE.OBJLoader()
                 .setMaterials(materials)
                 .setPath('data/models/')
-                .load('omega.obj', function (group) {
+                .load('omega01.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
-                    RhinoMesh.scale.set(0.01, 0.01, 0.01);
+                    RhinoMesh.scale.set(0.005, 0.005, 0.005);
                     RhinoMesh.castShadow = true;
                     RhinoMesh.receiveShadow = true;
                     RhinoMesh.position.set(0,0,0);
