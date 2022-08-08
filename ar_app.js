@@ -193,7 +193,7 @@ function init() {
                 .load('omega.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
-                    RhinoMesh.scale.set(0.1, 0.1, 0.1);
+                    RhinoMesh.scale.set(0.01, 0.01, 0.01);
                     RhinoMesh.castShadow = true;
                     RhinoMesh.receiveShadow = true;
                     RhinoMesh.position.set(1,1,1);
