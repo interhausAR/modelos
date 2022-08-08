@@ -185,7 +185,7 @@ function init() {
     //////OBJETO RHINO 1///////////////
     new THREE.MTLLoader()
         .setPath('data/models/')
-        .load('', function (materials) {
+        .load('omega01.mtl', function (materials) {
             materials.preload();
             new THREE.OBJLoader()
                 .setMaterials(materials)
