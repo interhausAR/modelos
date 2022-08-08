@@ -129,7 +129,7 @@ function init() {
 	scene.add(markerRoot1)
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
 		type : 'pattern',
-        patternUrl : "data/hiro.patt",
+        patternUrl : "data/neo01.patt",
 		
     })
     ////Marcador 2//////////
@@ -138,7 +138,7 @@ function init() {
 	scene.add(markerRoot2)
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerRoot2, {
 		type : 'pattern',
-        patternUrl : "data/kanji.patt",
+        patternUrl : "data/neo02.patt",
 		
     })
     ////Marcador 3//////////
@@ -147,7 +147,7 @@ function init() {
 	scene.add(markerRoot3)
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerRoot3, {
 		type : 'pattern',
-        patternUrl : "data/pattern-marcador3.patt",
+        patternUrl : "data/neo03.patt",
 		
 	})
 
@@ -157,7 +157,7 @@ function init() {
 	scene.add(markerRoot4)
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerRoot4, {
 		type : 'pattern',
-        patternUrl : "data/pattern-marcador4.patt",
+        patternUrl : "data/neo04.patt",
 		
 	})
 
@@ -202,6 +202,8 @@ function init() {
                     markerRoot1.add(RhinoMesh);
                 }, onProgress, onError);
         });
+
+    
     
 }
 
