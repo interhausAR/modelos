@@ -129,7 +129,7 @@ function init() {
 	scene.add(markerRoot1)
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
 		type : 'pattern',
-        patternUrl : "data/neo01.patt",
+        patternUrl : "data/hiro.patt",
 		
     })
     ////Marcador 2//////////
