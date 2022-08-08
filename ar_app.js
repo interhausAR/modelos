@@ -196,7 +196,7 @@ function init() {
                     RhinoMesh.scale.set(0.01, 0.01, 0.01);
                     RhinoMesh.castShadow = true;
                     RhinoMesh.receiveShadow = true;
-                    RhinoMesh.position.set(1,1,1);
+                    RhinoMesh.position.set(0,0,0);
                 
 
                     markerRoot1.add(RhinoMesh);
