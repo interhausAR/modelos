@@ -193,7 +193,7 @@ function init() {
                 .load('building_04.obj', function (group) {
                     RhinoMesh = group.children[0];
                     RhinoMesh.material.side = THREE.DoubleSide;
-                    RhinoMesh.scale.set(0.005, 0.005, 0.005);
+                    RhinoMesh.scale.set(0.1, 0.01, 0.1);
                     RhinoMesh.castShadow = true;
                     RhinoMesh.receiveShadow = true;
                     RhinoMesh.position.set(0,0,0);
