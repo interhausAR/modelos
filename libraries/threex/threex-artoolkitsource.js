@@ -374,7 +374,7 @@ ARjs.Source.prototype.copyElementSizeTo = function(otherElement){
 //		Code Separator
 //////////////////////////////////////////////////////////////////////////////
 
-ARjs.Source.prototype.copySizeTo = function(){
+ARjs.Source.prototype.copyElementSizeTo = function(){
 	console.warn('obsolete function arToolkitSource.copySizeTo. Use arToolkitSource.copyElementSizeTo' )
 	this.copyElementSizeTo.apply(this, arguments)
 }
