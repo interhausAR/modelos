@@ -91,11 +91,11 @@ function init() {
         sourceType: 'webcam',
     });
 
-    function onResize() {
-        arToolkitSource.onResize()
-        arToolkitSource.copySizeTo(renderer.domElement)
+    function onResizeElement() {
+        arToolkitSource.onResizeElement()
+        arToolkitSource.copySizeToElement(renderer.domElement)
         if (arToolkitContext.arController !== null) {
-            arToolkitSource.copySizeTo(arToolkitContext.arController.canvas)
+            arToolkitSource.copySizeToElement(arToolkitContext.arController.canvas)
         }
     }
 
